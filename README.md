@@ -30,11 +30,14 @@ A single-file Node.js script to interact with a test API using **HTTP requests**
 ngrok http 5050
 ```
 
-``` code
+```code
 const CALLBACK_URL = "https://abc1234.ngrok.io/callback";
 ```
 
 
+### In other terminal
+
+
 ```bash
-node script.js
+node task.js
 ```
