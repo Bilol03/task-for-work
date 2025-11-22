@@ -37,3 +37,16 @@ const server = http.createServer((req, res) => {
 server.listen(CALLBACK_PORT, async () => {
   console.log(`[✔] Callback server running at ${CALLBACK_URL}`);
 });
+
+ 
+// Utility: wait for second part
+function waitForSecondPart() {
+  return new Promise(resolve => {
+    const check = setInterval(() => {
+      if (secondPart !== null) {
+        clearInterval(check);
+        resolve();
+      }
+    }, 200);
+  });
+}
