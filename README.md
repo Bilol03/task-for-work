@@ -15,7 +15,7 @@ A single-file Node.js script to interact with a test API using **HTTP requests**
 ## 📂 Files
 ```
 .
-├── script.js # Main Node.js script
+├── task.js # Main Node.js script
 └── README.md # This documentation
 ```
 
