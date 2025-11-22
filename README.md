@@ -13,4 +13,19 @@ A single-file Node.js script to interact with a test API using **HTTP requests**
 ---
 
 ## 📂 Files
+```
+.
+    ├── script.js # Main Node.js script
+    └── README.md # This documentation
+```
 
+```
+---
+
+## 🚀 Setup & Run
+
+### 1. Expose local server using ngrok
+
+```bash
+ngrok http 5050
+```
