@@ -26,6 +26,15 @@ A single-file Node.js script to interact with a test API using **HTTP requests**
 
 ### 1. Expose local server using ngrok
 
-``` bash
+```bash
 ngrok http 5050
+```
+
+``` code
+const CALLBACK_URL = "https://abc1234.ngrok.io/callback";
+```
+
+
+```bash
+node script.js
 ```
