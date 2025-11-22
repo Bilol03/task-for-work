@@ -31,7 +31,7 @@ ngrok http 5050
 ```
 
 ```code
-const CALLBACK_URL = "https://abc1234.ngrok.io/callback";
+const CALLBACK_URL = "https://abc1234.ngrok.io/callback"; // your ngrok url
 ```
 
 
